@@ -1,0 +1,23 @@
+.Wrapper {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-evenly;
+    width: 100%;
+    list-style: none;
+    color: black;
+    overflow: hidden;
+    background-color: #cc0000;
+    padding: 10px 0;
+    transition: all 100ms ease;
+
+}
+
+.Hidden {
+    color: transparent;
+}
+
+@media screen and (max-width: 500px) {
+    .Wrapper {
+        flex-flow: column;
+    }
+}

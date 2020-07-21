@@ -1,0 +1,28 @@
+.Button {
+    padding: 5px;
+    border: 1px solid black;
+    cursor: pointer;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+}
+
+.Button::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: black;
+    transform: translateY(100%);
+    transition: transform 300ms ease;
+    z-index: -1;
+}
+
+.Button:hover::after {
+    transform: translateY(0);
+}
+.Button:hover {
+    color: white;
+}

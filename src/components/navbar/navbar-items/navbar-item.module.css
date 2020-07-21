@@ -1,0 +1,62 @@
+
+.NavbarItem {
+    position: relative;
+    overflow: hidden;
+    margin: 0;
+    transition: all 300ms ease;
+    color:white;
+    text-align: center;
+    padding: 5px;
+}
+
+
+.NavbarItem::after {
+    content: attr(title);
+    color: #000000;
+    font-weight: 500;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    padding: 5px;
+    transition: all 300ms ease;
+    text-align: center;
+}
+
+.NavbarItem:hover::after {
+    transform: translateY(-100%);
+}
+
+.NavbarItem:hover {
+    color: transparent;
+    cursor: pointer;
+}
+
+
+.SidebarItem {
+    position: relative;
+    overflow: hidden;
+    margin: 0;
+    transition: all 300ms ease;
+    color:black;
+    text-align: center;
+}
+
+
+.SidebarItem::after {
+    content: attr(title);
+    color: #cc0000;
+    font-weight: 500;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    transition: all 300ms ease;
+}
+
+.SidebarItem:hover::after {
+    transform: translateY(-100%);
+}
+
+.SidebarItem:hover {
+    color: transparent;
+    cursor: pointer;
+}

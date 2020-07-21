@@ -1,0 +1,17 @@
+.Navbar {
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+    align-items: center;
+    font-family: "Old Sans";
+    position: relative;
+}
+
+.Navbar > h1 {
+    color: black;
+    letter-spacing: 0.7rem;
+    font-weight: bold;
+}
+

@@ -1,0 +1,26 @@
+.Wrapper {
+  box-sizing: border-box;
+  overflow-y: auto;
+  font-family: "Old Sans";
+  text-align: left;
+}
+
+.Content {
+  display: flex;
+  flex-flow: row;
+  overflow: hidden;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.Arrow {
+  border: 1px solid black;
+  padding: 5px;
+  font-size: 2rem;
+  transition: all 200ms ease;
+  margin: 10px
+}
+
+.Arrow:hover {
+  transform: scale(1.1);
+}

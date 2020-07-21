@@ -1,0 +1,14 @@
+.Wrapper {
+    display: flex;
+    flex-flow: column;
+    height: 60vh;
+    width: 100%;
+    justify-content: space-evenly;
+    flex-grow: 1;
+    border: 2px solid black;
+    box-sizing: border-box;
+    padding: 10px;
+    align-items: center;
+    margin: 0;
+    font-family: "Old Sans";
+}
