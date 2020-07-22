@@ -24,9 +24,9 @@ const BlogsRow:FunctionComponent<BlogsRowProps> = ({header, content}) => {
 
     return (
         <div className={classes.Wrapper}>
-            <h3 style={{marginLeft: 30}}>{header} &gt;&gt;</h3>
+            <h3 style={{marginLeft: 30, fontSize: '1.5rem'}}>{header} &gt;&gt;</h3>
             <div className={classes.Content}>
-                <ScrollMenu
+                {/* <ScrollMenu
                 data={content}
                 wrapperStyle={{width: '100%'}}
                 menuStyle={{alignItems: 'center',width: '90vw', transform: 'translate3d(0,0,0)'}}
@@ -36,7 +36,8 @@ const BlogsRow:FunctionComponent<BlogsRowProps> = ({header, content}) => {
                 onSelect={(key) => {
                     console.log(key);
                 }}
-                />
+                /> */}
+                {content}
             </div>
         </div>
     )

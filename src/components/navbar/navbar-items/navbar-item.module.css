@@ -10,24 +10,23 @@
 }
 
 
-.NavbarItem::after {
+/* .NavbarItem::after {
     content: attr(title);
     color: #000000;
     font-weight: 500;
     position: absolute;
+    right: 100%;
     top: 100%;
-    left: 0;
     padding: 5px;
     transition: all 300ms ease;
-    text-align: center;
-}
+} */
 
-.NavbarItem:hover::after {
+/* .NavbarItem:hover::after {
     transform: translateY(-100%);
-}
+} */
 
 .NavbarItem:hover {
-    color: transparent;
+    text-decoration: underline;
     cursor: pointer;
 }
 
