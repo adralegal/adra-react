@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Displays read more when blog is hovered 1`] = `
+<div
+  className="Wrapper"
+>
+  <h1>
+    "
+  </h1>
+  <h3>
+    Hello
+  </h3>
+  <p>
+    Hello
+  </p>
+  <span>
+    Read More...
+  </span>
+</div>
+`;
