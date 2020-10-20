@@ -29,9 +29,6 @@ const Layout = ({ children, mobile }) => {
 
           <Navbar />
         </header>
-        {/* <nav className={className +" hidden"}>
-          <Sidebar />
-        </nav> */}
         <Backdrop isVisible={sidebarVisible} component={<Sidebar />} onCloseHandler={handleMenuClicked} />
         <main className={className}>{children}</main>
       </div>

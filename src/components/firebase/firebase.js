@@ -15,9 +15,9 @@ const config = {
 class Firebase {
   constructor() {
     if (!firebase.apps.length) {
-      firebase.initializeApp(config)
-      this.auth = firebase.auth()
-      this.db = firebase.firestore()
+      firebase.initializeApp(config);
+      this.auth = firebase.auth();
+      this.db = firebase.firestore();
     }
   }
 }
