@@ -1,0 +1,17 @@
+.PageIndicator {
+    font-family: "Old Sans";
+    font-weight: bold;
+    text-align: center;
+    margin: 20px;
+}
+
+.PageIndicator span {
+    padding: 10px;
+    cursor: pointer;
+    border: 2px solid transparent;
+}
+
+.active {
+    border: 2px solid black !important;
+    border-radius: 10px
+}

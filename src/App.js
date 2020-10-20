@@ -4,6 +4,7 @@ import Blog from "./components/blog/blog"
 import BlogRow from "./components/blogs-row/blogs-row"
 import "./index.css";
 import Layout from "./components/layout"
+import PageIndicator from "./components/ui/page-indicator/pageIndicator";
 
 const blogs = [
   <Blog key={0} title="Dummy Title" content={`The content of your new blog will be the bait that attracts your readers. In this guide, we will cover what content you need to write when you start a blog and the best practices you should follow.`} />,
@@ -26,6 +27,7 @@ const App = (props) => {
     <>
       <Layout mobile={props.isMobile}>
         <BlogRow header="Recently Added" content={blogs} />
+        <PageIndicator pages={4} />
       </Layout>
     </>
   )
